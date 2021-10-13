@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remove projects I don't need -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="android_device_common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/art" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/trusty" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/barbet" />
+  <remove-project name="device/google/barbet-kernel" />
+  <remove-project name="device/google/barbet-sepolicy" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="android_device_google_bramble" />
+  <remove-project name="device/google/bramble-sepolicy" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="android_device_google_coral" />
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="android_device_google_coral-sepolicy" />
+  <remove-project name="android_device_google_redbull" />
+  <remove-project name="device/google/redbull-kernel" />
+  <remove-project name="android_device_google_redbull-sepolicy" />
+  <remove-project name="android_device_google_redfin" />
+  <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
+  <remove-project name="device/google/fuchsia" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google_car" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/sample" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
+
+  <remove-project name="platform/hardware/google/av" />
+  <remove-project name="platform/hardware/google/camera" />
+  <remove-project name="platform/hardware/google/easel" />
+
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8x09" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/sdm845/bt" />
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/gps" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/sdm845/thermal" />
+  <remove-project name="platform/hardware/qcom/sdm845/vr" />
+  <remove-project name="platform/hardware/qcom/sm7150/gps" />
+  <remove-project name="android_hardware_qcom_sm7250_display" />
+  <remove-project name="platform/hardware/qcom/sm7250/gps" />
+  <remove-project name="android_hardware_qcom_sm7250_media" />
+  <remove-project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" />
+  <remove-project name="android_hardware_qcom_sm8150_display" />
+  <remove-project name="platform/hardware/qcom/sm8150/gps" />
+  <remove-project name="android_hardware_qcom_sm8150_media" />
+  <remove-project name="platform/hardware/qcom/sm8150/thermal" />
+  <remove-project name="platform/hardware/qcom/sm8150/vr" />
+  <remove-project name="platform/hardware/qcom/sm8150p/gps" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+  <remove-project name="platform/hardware/st/nfc" />
+  <remove-project name="platform/hardware/st/secure_element" />
+  <remove-project name="platform/hardware/st/secure_element2" />
+  <remove-project name="platform/hardware/samsung/nfc" />
+  <remove-project name="platform/hardware/ti/am57x" />
+
+  <remove-project name="kernel/prebuilts/4.19/arm64" />
+  <remove-project name="kernel/prebuilts/5.4/arm64" />
+  <remove-project name="kernel/prebuilts/5.4/x86-64" />
+  <remove-project name="kernel/prebuilts/5.10/x86-64" />
+  <remove-project name="kernel/prebuilts/mainline/arm64" />
+
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" />
+
+  <remove-project name="platform/frameworks/opt/car/setupwizard" />
+  <remove-project name="platform/packages/apps/Car/Calendar" />
+  <remove-project name="platform/packages/apps/Car/SystemUI" />
+  <remove-project name="platform/packages/apps/Car/Cluster" />
+  <remove-project name="platform/packages/apps/Car/DebuggingRestrictionController" />
+  <remove-project name="platform/packages/apps/Car/Dialer" />
+  <remove-project name="platform/packages/apps/Car/Hvac" />
+  <remove-project name="platform/packages/apps/Car/LatinIME" />
+  <remove-project name="platform/packages/apps/Car/Launcher" />
+  <remove-project name="platform/packages/apps/Car/LinkViewer" />
+  <remove-project name="platform/packages/apps/Car/LocalMediaPlayer" />
+  <remove-project name="platform/packages/apps/Car/Media" />
+  <remove-project name="platform/packages/apps/Car/Messenger" />
+  <remove-project name="platform/packages/apps/Car/Notification" />
+  <remove-project name="platform/packages/apps/Car/Provision" />
+  <remove-project name="platform/packages/apps/Car/Radio" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
+  <remove-project name="platform/packages/apps/Car/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/Car/SystemUpdater" />
+  <remove-project name="platform/packages/apps/Car/tests" />
+
+  <remove-project name="platform/frameworks/opt/tv/tvsystem" />
+  <remove-project name="platform/packages/apps/TvSettings" />
+  <remove-project name="platform/packages/apps/TV" />
+  <remove-project name="platform/packages/providers/TvProvider" />
+
+  <remove-project name="platform/packages/modules/BootPrebuilt/5.4/arm64" />
+  <remove-project name="platform/packages/modules/BootPrebuilt/5.10/arm64" />
+
+  <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+
+  <remove-project name="android_vendor_google" />
+
+  <remove-project name="platform/external/chromium-webview" />
+
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/apps/OneTimeInitializer" />
+  <remove-project name="platform/packages/apps/Provision" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/WallpaperPicker" />
+
+  <remove-project name="platform/packages/screensavers/Basic" />
+  <remove-project name="platform/packages/screensavers/PhotoTable" />
+
+  <remove-project name="android_packages_inputmethods_LatinIME" />
+
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+
+  <remove-project name="android_packages_apps_Dialer" />
+  <remove-project name="android_packages_apps_ElmyraService" />
+  <remove-project name="android_packages_apps_ExactCalculator" />
+  <remove-project name="android_packages_apps_Jelly" />
+  <remove-project name="android_packages_apps_Messaging" />
+  <remove-project name="android_packages_apps_ThemePicker" />
+  <remove-project name="android_packages_apps_WallpaperPicker2" />
+
+  <remove-project name="android_vendor_qcom_opensource_core-utils" />
+
+
+  <!-- Shallow clone prebuilts and other huge repos -->
+  <remove-project name="platform/tools/tradefederation/prebuilts" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
+
+  <remove-project name="platform/external/deqp" />
+  <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" clone-depth="1" />
+
+  <remove-project name="platform/external/kotlinc" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" clone-depth="1" />
+
+  <remove-project name="platform/external/icu" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" clone-depth="1" />
+
+  <remove-project name="platform/external/dokka" />
+  <project path="external/dokka" name="platform/external/dokka" groups="pdk" clone-depth="1" />
+
+  <remove-project name="platform/external/tensorflow" />
+  <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" clone-depth="1" />
+
+  <remove-project name="platform/external/autotest" />
+  <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" clone-depth="1" />
+
+  <remove-project name="platform/cts" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" clone-depth="1" />
+
+  <remove-project name="platform/packages/services/Car" />
+  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" clone-depth="1" />
+
+  <remove-project name="platform/frameworks/layoutlib" />
+  <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+
+  <remove-project name="android_external_noto-fonts" />
+  <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" clone-depth="1" />
+
+
+  <!-- Remotes -->
+  <remote name="kghub" fetch="https://github.com/subhajeetmuhuri" revision="sc" />
+  <remote name="kglab" fetch="https://gitlab.com/subhajeetmuhuri" revision="sc" />
+  <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-19.0" />
+  <remote name="stuff" fetch="https://github.com/random-aosp-stuff" revision="sc" />
+
+
+  <!-- Device specific repos -->
+  <project name="android_device_xiaomi_surya" path="device/xiaomi/surya" remote="kghub" />
+  <project name="android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="kghub" />
+  <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="kghub" />
+  <project name="proprietary_firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="kglab" />
+
+
+  <!-- AOSP forks -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="stuff" />
+
+  <remove-project name="platform/external/libcxx" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="stuff" />
+
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="stuff" />
+
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="stuff" />
+
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="stuff" />
+
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stuff" />
+
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="stuff" />
+
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="stuff" />
+
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stuff" />
+
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="stuff" />
+
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project name="android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="kglab" clone-depth="1" />
+
+  <remove-project name="platform/system/apex" />
+  <project path="system/apex" name="android_system_apex" remote="stuff" />
+
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="android_system_media" remote="stuff" />
+
+  <remove-project name="platform/system/security" />
+  <project path="system/security" name="android_system_security" remote="stuff" />
+
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="android_system_vold" remote="stuff" />
+
+
+  <!-- ProtonAOSP forks -->
+  <remove-project name="android_bionic" />
+  <project path="bionic" name="android_bionic" remote="stuff" />
+
+  <remove-project name="android_build_make" />
+  <project name="android_build" path="build/make" remote="stuff">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="android_build_soong" />
+  <project name="android_build_soong" path="build/soong" remote="stuff">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <remove-project name="android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="stuff" />
+
+  <remove-project name="android_frameworks_native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="stuff" />
+
+  <remove-project name="android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stuff" />
+
+  <remove-project name="android_packages_apps_SettingsIntelligence" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="stuff" />
+
+  <remove-project name="android_system_core" />
+  <project path="system/core" name="android_system_core" remote="stuff" />
+
+  <remove-project name="android_system_sepolicy" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="stuff" />
+
+  <remove-project name="android_vendor_proton" />
+  <project path="vendor/proton" name="android_vendor_proton" remote="stuff" />
+
+  <remove-project name="ProtonAOSP/android_vendor_gapps" />
+  <project path="vendor/gms" name="proprietary_vendor_gms" remote="kglab" />
+
+
+  <!-- LineageOS forks -->
+  <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="stuff" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="stuff" />
+
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="stuff" revision="lineage-19.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="stuff" revision="sc-caf-sm8150" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stuff" revision="lineage-19.0-caf" />
+
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="stuff" />
+
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="stuff" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="stuff" revision="lineage-19.0" />
+
+
+  <!-- Sync from random-aosp-stuff -->
+  <project path="device/proton/sepolicy" name="android_device_proton_sepolicy" remote="stuff" />
+  <project path="vendor/support" name="android_vendor_support" remote="stuff" revision="lineage-18.1" />
+
+
+  <!-- Sync from LineageOS -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1" />
+
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" revision="lineage-18.1" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" revision="lineage-18.1" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" revision="lineage-18.1" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="lineage-18.1" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="los" revision="lineage-18.1" />
+
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
+
+  <project path="external/json-c" name="android_external_json-c" remote="los" revision="lineage-18.1" />
+
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="los" revision="lineage-18.1" >
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-18.1-caf-sm8150" />
+
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="los" revision="lineage-18.1" />
+
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="los" />
+  <project path="prebuilts/tools-proton" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
+
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" revision="lineage-18.1" />
+
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="los" revision="lineage-18.1" />
+
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="los" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" revision="lineage-18.1" />
+
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" revision="lineage-18.1" />
+
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="los" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="los" revision="lineage-18.1" />
+
+  <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="los" revision="lineage-18.1" />
+
+  <remove-project name="android_vendor_qcom_opensource_interfaces" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" revision="lineage-18.1" />
+
+  <remove-project name="android_vendor_qcom_opensource_thermal-engine" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" revision="lineage-18.1" />
+
+  <remove-project name="android_tools_extract-utils" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="los" />
+</manifest>
